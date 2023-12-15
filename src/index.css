@@ -1,0 +1,205 @@
+.my-container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.activeRoute {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: start;
+}
+
+.items-end {
+    align-items: end;
+}
+
+/* header */
+.header {
+    background: #9bb8cd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul.route-parent {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.header a {
+    color: #fff;
+}
+
+h2.logo {
+    margin: 0;
+}
+
+.activeRoute {
+    color: blue !important;
+}
+
+/* header ends */
+
+/* home */
+.home {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+}
+
+.tshirts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tshirt {
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+    padding: 4% 0;
+}
+
+
+.tshirt img {
+    width: 80%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.product {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.product h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.product button {
+    margin-left: auto;
+}
+
+/* home ends */
+/* context */
+.grandpa {
+    border: 2px solid lightcoral;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.grandpa div {
+    border: 1px solid lightcoral;
+    padding: 20px;
+    width: -webkit-fill-available;
+}
+/* context ends */
+/* btn style */
+.button-9 {
+    /* appearance: button; */
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s, box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-9:disabled {
+    cursor: default;
+}
+
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+/* btn style ends */
+@media (max-width: 500px) {
+    .my-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 992px) {
+    .my-container {
+        max-width: 850px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .my-container {
+        max-width: 1150px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .my-container {
+        max-width: 1350px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .my-container {
+        max-width: 1350px;
+    }
+}
